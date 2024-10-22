@@ -1,0 +1,70 @@
+01. What is Python?
+
+Python is a programming language that's used for a variety of purposes, including:
+Web development: Python is used to build websites and web applications.
+Software development: Python is used to create software.
+Data science: Python is used for data analysis and machine learning.
+Automation: Python can be used to automate tasks.
+
+02. What does the print() function do in Python?
+
+The print() function prints the specified message to the screen, or other standard output device. The message can be a string, or any other object, the object will be converted into a string before written to the screen.
+
+03. What is the purpose of comments in python programming language?
+
+Python comments are simple sentences that we use to make the code easier to understand. They explain your way of thinking and describe every step that you take to solve a coding problem. These sentences are not read by the Python interpreter when it executes the code.
+
+04. Provide an example of a syntax error & semantic error in Python and explain why it is an error ?
+
+Syntax errors: errors due to the fact that the syntax of the language is not respected.
+Semantic errors: errors due to an improper use of program statements. 
+
+05. What does case sensitivity mean in Python?
+
+Python is a case-sensitive programming language. This means that it treats uppercase and lowercase letters differently.
+For example, in a case sensitive system, "hello" and "Hello" would be considered two different words.
+
+06. Provide an example to illustrate how case sensitivity affects variable names in Python.
+
+Python is case-sensitive, which means that uppercase and lowercase letters are treated as different characters. This can affect variable names in Python.
+Ex. my_variable, My_Variable, and MY_VARIABLE are all different variables in Python.
+
+07. What is the recommended naming convention for variables in Python?
+
+A variable name must start with a letter or the underscore character. A variable name cannot start with a number. A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ ).
+
+Some popular naming conventions for Python variables include:
+
+Camel case: The first letter is lowercase, and each subsequent word begins with an uppercase letter.
+Snake case: Separate words are separated by underscores.
+Pascal case: Each word in a variable name begins with an uppercase letter.
+
+08. What is the purpose of indentation in Python?
+
+Indentation plays a crucial role in Python programming. It is a unique feature of the language that sets it apart from other programming languages. In Python, indentation is used to define the structure and hierarchy of the code. It helps in visually organizing the code and making it more readable
+
+09. What is the current stable version of Python as of September 2024?
+
+3.10. 4
+
+10. What are the basic data types in Python? Provide examples for each.
+
+Python has 4 types of datatypes
+* Interger
+* Float
+* String 
+* Boolean
+
+* Integer
+    The numeric data type in Python represents the data that has a numeric value.In Python, integers are classified into zero, positive, or negative whole numbers with no fractional part and infinite precision, such as 0, 100, -10, and so on.
+
+
+* Float
+    Floating point numbers are decimal values or fractional numbers like 133.5, 2897.11, and 3571.213.
+
+* String
+    A string is a sequence of characters and can contain letters, numbers, symbols and even spaces. It must be enclosed in quotation marks for it to be recognized as a string. For example, the word “liquid”.
+
+* Boolean
+    It evaluates the condition by comparing if 'a' is greater than 'b' and also if 'a' is greater than 'c'. If both the conditions are true only then does the Boolean expression result is true. If any one condition is not true then the Boolean expression will result in false.
+Ex: Ex: (a>b && a> c) is a Boolean expression
