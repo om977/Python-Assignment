@@ -1,0 +1,51 @@
+What is the difference between = and == in Python?
+
+In Python, the == operator is used to compare if two expressions or records are equal, while the = operator is used to assign a value to the left side based on the right side.
+
+The == operator is also known as the equality operator. It returns true if both operands are equal. It can ignore types of variables and quotes.
+
+The = operator is used to assign a value to the left side based on the right side.
+
+How does the not operator work with boolean values?
+
+(logical complement, negation) operator takes truth to falsity and vice versa. It is typically used with boolean (logical) values. When used with non-Boolean values, it returns false if its single operand can be converted to true ; otherwise, returns true.
+
+Can you give an example of using the & bitwise operator?
+
+The Python Bitwise AND (&) operator takes two equal-length bit patterns as parameters. The two-bit integers are compared. If the bits in the compared positions of the bit patterns are 1, then the resulting bit is 1. If not, it is 0.
+
+Example: Take two bit values X and Y, where X = 7= (111)2 and Y = 4 = (100)2 . Take Bitwise and of both X & y
+
+How do you use the or logical operator in a condition?
+
+the Python or operator returns the first object that evaluates to true or the last object in the expression, regardless of its truth value. In this example, the Python or operator returns the first true operand it finds, or the last one.  in Python, we say "or" without using any special symbol. Return value: This operator either returns "True" or "False", depending on the operands. If both the operands/expressions on either side of the operator are false, it returns False.
+
+How do you use the is operator in Python?
+
+In Python, the is operator is used to check if two variables refer to the same object:
+Usage: x is y
+Output: Returns True if the two objects are the same, and False if they are not
+The is operator is different from the == operator, which checks if the values of two objects are equal. For example, two variables might have the same values but be different objects, which the is operator can detect.
+
+What is the difference between is and == when comparing two strings in Python?
+
+The == operator is used to compare the equality of objects. The is operator is used to check if different variables are pointing to the same object in memory.
+
+Can you give an example of how the not in membership operator works?
+
+The NOT IN operator in Python is used to evaluate if a value or variable is absent from the sequence. If the specified value is not found in the sequence, it returns True. However, if the value is present in the sequence, it returns False.
+
+How do you use the >= (greater than or equal to) comparison operator?
+
+Greater than or equal to ( >= ) — returns true if the value on the left is greater than or equal to the value on the right, otherwise it returns false . Equal to ( === ) — returns true if the value on the left is equal to the value on the right, otherwise it returns false
+
+Can you show how to use the in membership operator?
+
+Operator x
+Syntax: x in y
+The in operator returns true if exists is sequence in y.
+
+Operator not in
+Syntax: x not in y
+The not in operator returns true if either x does not exist in sequence in y
+    
